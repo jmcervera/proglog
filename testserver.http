@@ -1,0 +1,17 @@
+# curl -X POST localhost:8080 -d '{"record": {"value": "TGV0J3MgR28gIzEK"}}'
+POST localhost:8080
+Content-Type: application/x-www-form-urlencoded
+
+{"record": {"value": "TGV0J3MgR28gIzEK"}}
+
+###
+
+# curl -X GET localhost:8080 -d '{"offset": 1}'
+GET localhost:8080
+Content-Type: application/x-www-form-urlencoded
+
+{"offset": 1}
+
+###
+
+
